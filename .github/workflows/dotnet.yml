@@ -26,4 +26,4 @@ jobs:
     - name: Restore dependencies
       run: cd AvalonStudio/AvalonStudio && dotnet restore
     - name: Build
-      run: cd AvalonStudio/AvalonStudio && dotnet build --no-restore
+      run: cd AvalonStudio/AvalonStudio && dotnet build
