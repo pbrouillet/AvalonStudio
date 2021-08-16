@@ -20,6 +20,6 @@ jobs:
     - name: test
       run: ls
     - name: Restore dependencies
-      run: cd AvalonStudio/AvalonStudio/AvalonStudio && dotnet restore
+      run: cd AvalonStudio/AvalonStudio && dotnet restore
     - name: Build
-      run: cd AvalonStudio/AvalonStudio/AvalonStudio && dotnet build --no-restore
+      run: cd AvalonStudio/AvalonStudio && dotnet build --no-restore
